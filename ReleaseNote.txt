@@ -1,0 +1,22 @@
+RELEASE NOTE
+=============
+
+Program file directory
+======================
+-WrkShpGui.py and Sliding_window.py should be in same directory.
+
+Instruction to run the Code
+============================
+-First run the WrkShpGui.py .
+-While running the WrkShpGui.py  the window will popup, which name will be "WorkShop"
+-Go to the "File Menu" and click on "Load Video" and load the video.
+-After loading the video, first frame of video will be popup.
+ -Select the roi by dragging the mouse by left click.
+ -After selecting one roi goto "Edit Menu" click on "Add Name".
+  -After clicking the "Add Name" input window will popup.
+  -Enter the name and click "okay" button and then click "exit" button.
+ -This process follow for every person for selecting roi in video Frame.
+-After selecting all persons roi goto "Tracking" and click "Start Tracking".
+-After clicking "Strat Tracking" one window with "FinalOutput" will popup in which final tracking output will shown.
+-For interrept the tracking goto "FinalOutput" window and press "q".
+-After this if want exit from the program goto "File Menu" and click on the "exit"
